@@ -1,0 +1,29 @@
+1.Begin by extracting the contents of the ZIP file using an appropriate
+decompression tool.
+
+2. Launch PyCharm, a popular integrated development environment
+(IDE) for Python, and proceed to open the project. Specifically,
+locate and open the " train_digit_recognizer.py " file within the
+project. This file is used to train our system with appropriate MNIST
+Dataset.
+
+3. Ensure that the necessary dependencies, namely TensorFlow,
+NumPy, PIL (Python Imaging Library), and cv2 (OpenCV), are
+installed on your computer. If they are not present, follow the
+subsequent steps to install them.
+
+  a. Within PyCharm, navigate to the desired dependencies and
+  position your cursor over each one. Next, initiate the
+  installation process by clicking on the "Install Package" option.
+  
+4. Once the installation of each module is complete, click on the "Run"
+button in PyCharm to execute the project, initiating its runtime
+operation. The outcome of this file execution is our trained model
+named " trained_model.h5 " which will be used to recognize the
+digits written on canvas.
+
+5. Now, Locate and open the file named "final_gui.py" file within the
+project and click on "Run" button in PyCharm to execute the project,
+initiating its runtime operation. The Canvas widget will appear
+where the user will draw the digits and recognize the number by
+clicking on " Recognize Number " button.
